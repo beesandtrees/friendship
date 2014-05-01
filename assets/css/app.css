@@ -4733,7 +4733,8 @@ body {
 .panel {
   border-color: #222;
   background: #111;
-  border-radius: 10px; }
+  border-radius: 10px;
+  letter-spacing: 1.2px; }
   .panel h1, .panel h2 {
     color: #00ccff;
     font-weight: 300; }
