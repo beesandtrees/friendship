@@ -1,0 +1,47 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Global Foundation Settings
+@import "foundation/settings";
+
+// You can import only specific elements by adjusting the import below
+@import "foundation";
+
+body {
+    background: url(../../images/bracelet-background.jpg) repeat;
+}
+
+
+.panel {
+    border-color: #222;
+    background: #111;
+    border-radius: 10px;
+
+    h1, h2 {
+      color: #00ccff;
+      font-weight: 100;
+    }
+
+    h3, h4, p {
+        color: #ff2f96;
+        font-weight: 100;
+    }
+
+    &.secondary {
+        h1 {
+            color: #00ff9c;
+            font-size: 1.75rem;
+        }
+
+        h2 {
+            color: #00ff9c;
+            font-size: 1.125rem;
+        }
+
+        p, ol {
+            font-weight: 100;
+            color: #ffe5f4;
+        }
+    }
+
+}
