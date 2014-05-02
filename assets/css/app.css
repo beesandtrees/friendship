@@ -4185,17 +4185,42 @@ ul.no-bullet {
 
 /* Ordered Lists */
 ol {
-  margin-left: 1.4rem; }
+	margin-left: 1.4rem; }
   ol li ul, ol li ol {
     margin-left: 1.25rem;
     margin-bottom: 0; }
+    
+    ol img {
+	    margin-bottom: 2em;
+    }
 
 /* Definition Lists */
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold; }
 dl dd {
-  margin-bottom: 0; }
+	margin-bottom: 0;
+	margin-left: 2px;
+}
+
+dd img {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+
+dl dd:before {
+	content: '△';
+	font-size: 12px;
+	margin-right: 8px;
+	color: #00ff9c;
+}
+
+ol ul li:before {
+	content: '△';
+	font-size: 12px;
+	margin-right: 8px;
+	color: #00ff9c;
+}
 
 /* Abbreviations */
 abbr, acronym {
